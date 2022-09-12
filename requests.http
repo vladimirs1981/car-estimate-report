@@ -1,0 +1,18 @@
+
+### Create a new user
+POST http://loclahost:3001/auth/signup
+content-type: application/json
+
+{
+    "email": "vlada@vlada.com",
+    "password": "vlada123"
+}
+
+### Signin an existing user
+POST http://loclahost:3001/auth/signin
+content-type: application/json
+
+{
+    "email": "vlada@vlada.com",
+    "password": "vlada123"
+}
